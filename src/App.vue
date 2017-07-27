@@ -4,7 +4,7 @@
             <h2>Главная</h2>
             <app-quote>
                 <h2 slot="title">{{quoteTitle}}</h2>
-                <p slot="content">Прекрасная цитата</p>
+                <p>Прекрасная цитата</p>
             </app-quote>
 
         </div>
