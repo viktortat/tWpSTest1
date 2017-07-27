@@ -3,7 +3,7 @@
         <div class="row">
             <h2>Главная</h2>
             <app-quote>
-                <h2>Цитата</h2>
+                <h2>{{quoteTitle}}</h2>
                 <p>Прекрасная цитата</p>
             </app-quote>
 
@@ -15,13 +15,18 @@
     import Quote from './components/Quote.vue';
 
     export default {
+        data: function () {
+            return{
+                quoteTitle: 'Пример заголовка!'
+            }
+        },
         components: {
             appQuote: Quote
         }
     }
 </script>
 
-<style>
+<style scoped>
     .row{
         background-color: bisque;
         padding: 10px;
