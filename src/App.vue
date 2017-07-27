@@ -2,8 +2,10 @@
     <div class="container">
         <div class="row">
             <h2>Главная</h2>
-
-            <app-quote quote="Это прекрасная цитата!"></app-quote>
+            <app-quote>
+                <h2>Цитата</h2>
+                <p>Прекрасная цитата</p>
+            </app-quote>
 
         </div>
     </div>
