@@ -3,8 +3,8 @@
         <div class="row">
             <h2>Главная</h2>
             <app-quote>
-                <h2>{{quoteTitle}}</h2>
-                <p>Прекрасная цитата</p>
+                <h2 slot="title">{{quoteTitle}}</h2>
+                <p slot="content">Прекрасная цитата</p>
             </app-quote>
 
         </div>
